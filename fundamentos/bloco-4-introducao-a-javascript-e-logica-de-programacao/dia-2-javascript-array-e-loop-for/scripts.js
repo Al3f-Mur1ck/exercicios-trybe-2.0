@@ -5,3 +5,17 @@ for (let i = 0; i < numbers.length; i +=1) {
 }
 // 1 //
 
+let soma = 0;
+for (let z = 0; z < numbers.length; z+=1) {
+    soma += numbers[z];
+}
+console.log(soma);
+// 2 //
+
+
+let media;
+
+media = soma += numbers[z] / numbers.length;
+
+console.log (media);
+
