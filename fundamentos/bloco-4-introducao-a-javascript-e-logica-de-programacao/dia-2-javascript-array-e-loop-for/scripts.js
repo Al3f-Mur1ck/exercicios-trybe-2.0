@@ -20,3 +20,13 @@ media = ((soma += numbers[z]) / numbers.length);
 
 console.log (media);
 
+// 3 //
+
+if (media > 20) {
+    console.log ('Valor maior que 20');
+} else {
+    console.log ('Valor menor que 20');
+}
+
+// 4 //
+
