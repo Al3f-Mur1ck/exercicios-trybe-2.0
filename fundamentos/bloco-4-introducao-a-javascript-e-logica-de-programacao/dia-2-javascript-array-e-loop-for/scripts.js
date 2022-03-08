@@ -14,8 +14,9 @@ console.log(soma);
 
 
 let media;
-
-media = soma += numbers[z] / numbers.length;
+for (let z = 0; z < numbers.length; z+=1) {
+media = ((soma += numbers[z]) / numbers.length);
+}
 
 console.log (media);
 
